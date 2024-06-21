@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="Grocies Supermarket" content="width=device-width, initial-scale=1.0">
+    <title>Grocies Supermarket</title>
+    <link rel="shortcut icon" type="x-icon" href="image/1-removebg-preview.png">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <!-- Navigation bar , logo & search bar -->
+    <header>
+        <section class="header_main">
+            <nav class="bar">
+                <a href="index.html"> 
+                    <img class="logoimg" src="image/new_logo_-removebg-preview.png" alt="logo" width="150" height="110">                </a>
+                <div class="sreach__nav"> 
+                    <input type="checkbox" id="check">
+                    <center>
+                        <label for="check" class="checkbtn1">
+                            MENU
+                        </label>
+                    </center>
+                    <ul class="navul">
+                        <li><a href="index.html"> Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="dairy_product.html">Dairy Products</a></li>
+                        <li><a href="vegetables.html">Vegetables Products</a></li> 
+                        <li><a href="Cosmetics and Skin care product.html">Cosmetics & Skin care product</a></li>
+                        <li><a href="order.html">Order</a></li>
+                        <li><a href="loyalty_registation.html">Loyalty Rgistation</a></li>
+                    </ul>
+                    <br>
+                    <center>
+                        <div class="search">
+                            <input type="text" placeholder=Search>
+                            <a href="#">
+                                <i class="fas fa-search "></i>
+                            </a>
+                        </div>
+                    </center>
+                </div>
+                <div class="cart" id="cart">
+                    <a href="order.html">
+                        <img src="image/cart new .png"  width="40" height="36" alt="main image"> 
+                    </a>
+                </div>
+            </nav>            
+        </section>
+    </header>
+    <!--Loyalty registration intro-->
+    <div class="loyalty_intro_section">
+        <p class="loyalty_para_intro"><b>Supermarket Loyalty Registration Program:</b></p>  <br> 
+        <p class="loyalty_intro_para">Earn points on purchases, unlock discounts, 
+            and enjoy personalized promotions. With priority access to events and updates via our app, your loyalty 
+            is rewarded like never before. Join today!</p>
+    </div>
+    <!--registration section-->
+    <section class="loyalty_registration_section">
+        <form class="loyalty_registration_form">
+            <h1 class="loyalty_form_h1">Join With Us!</h1>
+            <br>
+            <div class="loyaltyformsection">First name: <input name="First name" required class="text" placeholder="Eg.Mr.Dilan" maxlength="15"></div>
+            <br>
+            <div class="loyaltyformsection">Last name: <input name="Last name" required class="text" placeholder="Eg.Maduranga" maxlength="20"></div>
+            <br>
+            <div class="loyaltyformsection">Phone number: <input name="Phone number" required class="number" placeholder="Eg.+9400 000 000" maxlength="10"></div>
+            <br>
+            <div class="loyaltyformsection">Email: <input name="email" required class="email" placeholder="Eg.****@gmail.com"></div>
+            <br>
+            <div class="loyaltyformsection">Address: <input name="address" required class="textarea" placeholder="Eg.Address"></div>
+            <br>
+            <div class="loyaltyformsection">Birthday: <input name="Birthday" required class="Birthday" placeholder="yyyy-mm-dd"></div>
+            <br>
+            <div class="loyaltyformsection">Write Something : <input name="loyalty scheme" required class="textarea" placeholder="why are you join with us"></div>
+            <br>
+            <button class="order_form_submit_button"> Join</button>
+        </form>
+    </section>
+    
+    <!--creating footer-->
+    <footer>
+        <section class="booking_page_footer">
+            <section class="footer_flex">
+                <section class="footer_infor">
+                    <p>GROCIES SUPERMARKET<br> 70/27, Obesekara Pura Mawatha,<br> Rajagiriya, Sri Lanka.</p><br>
+                    <a  href="tel:+94112545422">+94 112 545 422</a><br><br>
+                    <a href="mailto:infor@therimbariohotel.com">Inquiries:  infor@grociessupermarket.com</a><br>
+                    <a href="mailto:infor@therimbariohotel.com">Reservations:  reservations@grociessupermarket.com</a><br><br>
+                </section>
+            </section>
+        </section>
+    </footer>
+    </body>
+</html>
